@@ -30,18 +30,18 @@ fun main() {
     val a: Double = 0.02
     val b: Double = 0.03
     val c: Double = b - a
-    System.out.println(c)  // 0.009999999999999998
+    println(c)  // 0.009999999999999998
 
     val d: BigDecimal = BigDecimal("0.02")
     val e: BigDecimal = BigDecimal("0.03")
     val f: BigDecimal = e - d
-    System.out.println(f)    // 0.01
+    println(f)    // 0.01
 
     //Tanto Int, como Double como BigDecimal representan objetos a los que podés enviarle mensajes:
 
     val numero: Double = 10.0
-    System.out.println(numero.inc())   // 11.0
-    System.out.println(numero.rem(3))  // 1.0
+    println(numero.inc())   // 11.0
+    println(numero.rem(3))  // 1.0
 
 }
 

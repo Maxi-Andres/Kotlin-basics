@@ -13,7 +13,7 @@ fun main() {
     // Lista mutable
     val myMutableList = mutableListOf("Hello", "World")
     myMutableList.add("Goodbye")
-    System.out.println("${myMutableList[1]}")  // "World"
+    println(myMutableList[1])  // "World"
 
     // Set inmutable
     val mySet = setOf("Hello", "World")
@@ -24,7 +24,7 @@ fun main() {
     val myMutableSet = mutableSetOf("Hello", "World")
     myMutableSet.add("Goodbye")
     myMutableSet.add("Hello")  // no tiene efecto porque ya hay un elemento "Hello"
-    System.out.println("${myMutableSet.size}")  // 3
+    println("${myMutableSet.size}")  // 3
 
     // Mapa/Diccionario inmutable
     val myMap = mapOf("a" to 1 , "b" to 2)
@@ -33,7 +33,7 @@ fun main() {
 
     val myMutableMap = mutableMapOf("a" to 1 , "b" to 2)
     myMutableMap.set("c", 3)
-    System.out.println("${myMutableMap.size}")  // 3
+    println("${myMutableMap.size}")  // 3
 
 //Rangos con arrays
     // Array de enteros con valores [0, 0, 0, 0, 0]

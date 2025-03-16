@@ -27,7 +27,7 @@ class Pepe {
     private var peso: Int = 0
 
     fun showEdad() {
-        System.out.println("La edad de $name es $edad")
+        println("La edad de $name es $edad")
     }
 }
 
